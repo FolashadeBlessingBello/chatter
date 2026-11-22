@@ -210,18 +210,78 @@ body {
 
 .about__title {
   font-size: 48px;
-  line-height: 72px;  
-  font-weight: var(--fw-bold); 
+  line-height: 72px;
+  font-weight: var(--fw-bold);
 }
 
 .about__text {
   font-size: 18px;
-  margin-top: 34px;  
+  line-height: 27px;
+  margin-top: 34px;
 }
 
 .about__image {
-  width: 500px;      
+  width: 500px;
   height: 404px;
   object-fit: cover;
-  border-radius: 8px;  
+  border-radius: 8px;
+}
+
+/* Why section */
+
+.why__header {
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+.why__title {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  font-weight: var(--fw-bold);
+  text-align: center;
+}
+
+.why__text {
+  margin-top: 24px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.why__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  max-width: 1014px;
+  margin: 54px auto 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 18px 24px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+.card__icon {
+  display: grid;
+  place-items: center;
+  width: 92px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #d6d1f833;
+}
+
+.card__title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: var(--fw-medium);
+}
+
+.card__text {
+  padding-right: 16px;
+  color: #626262;
 }
