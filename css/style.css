@@ -111,7 +111,7 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 97px;
-  padding-inline: 72px;
+ 
 }
 
 .logo {
@@ -172,8 +172,8 @@ body {
   align-items: flex-start;
   gap: 24px;
   max-width: 984px;
-  padding: 24px;
-  margin-inline: auto;
+    margin-inline: auto;
+    padding-bottom: 74px;
 }
 
 .hero__title {
@@ -187,11 +187,10 @@ body {
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: var(--fw-medium);
+  margin-bottom: 12px;
 }
 
-.hero .btn {
-  margin-top: 12px;
-}
+
 
 /* About */
 .about {
@@ -289,7 +288,9 @@ body {
 
 /* Testimonial */
 .testimonial {
-  margin: 107px 0 ;
+  
+ margin-top: 107px;
+ margin-bottom: 96px;
   padding-block: 96px;
   background-color: #ffedcc80; 
 }
@@ -330,4 +331,65 @@ body {
 .testimonial__role {
   font-size: 18px;    
   line-height: 27px;      
+}
+
+/* CTA */
+
+
+.cta__inner {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  max-width: 1127px;
+  margin-inline: auto;
+}
+
+.cta__photos {
+  position: relative;
+  flex-shrink: 0;
+  width: 352px;              
+  height: 412px;
+}
+
+.cta__photo {
+  position: absolute;
+  width: 154px;             
+  height: 158px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cta__photo--one {
+  top: 0;
+  left: 0;
+}
+
+.cta__photo--two {
+  top: 127px;                
+  left: 198px;     
+   
+}
+
+.cta__photo--three {
+  
+  bottom: 0;
+  left: 0;
+}
+
+.cta__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;                 
+}
+
+.cta__title {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  font-weight: var(--fw-bold);
+}
+
+.cta__text {
+  font-size: 18px;
+  line-height: 27px;
 }
