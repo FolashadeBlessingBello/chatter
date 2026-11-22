@@ -404,7 +404,8 @@ body {
 
 .footer__inner {
   display: grid;
-  grid-template-columns: 1fr 330px 340px 185px; 
+  grid-template-columns: 1fr repeat(3, auto);
+  column-gap: 160px;
   align-items: start;
 }
 
