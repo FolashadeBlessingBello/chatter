@@ -49,7 +49,7 @@ body {
   width: 100%;
   max-width: 1440px;
   margin-inline: auto;
-  padding-inline: 76px;
+  padding-inline: 72px;
 }
 
 /*  Buttons  */
@@ -111,7 +111,7 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 97px;
-  padding-inline: 76px;
+  padding-inline: 72px;
 }
 
 .logo {
@@ -191,4 +191,37 @@ body {
 
 .hero .btn {
   margin-top: 12px;
+}
+
+/* About */
+.about {
+  padding-block: 96px;
+}
+
+.about__inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 84px;
+}
+
+.about__content {
+  flex: 1;
+}
+
+.about__title {
+  font-size: 48px;
+  line-height: 72px;  
+  font-weight: var(--fw-bold); 
+}
+
+.about__text {
+  font-size: 18px;
+  margin-top: 34px;  
+}
+
+.about__image {
+  width: 500px;      
+  height: 404px;
+  object-fit: cover;
+  border-radius: 8px;  
 }
